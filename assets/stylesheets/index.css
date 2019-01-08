@@ -3,3 +3,17 @@
     color: #1A2541;
     font-size: 2em;
 }
+
+.tab1{
+    padding-bottom: 0.5rem !important;
+}
+
+.active1{
+    color: #172444;
+    border-bottom: 3px solid #172444;
+}
+
+.btn-ghost{
+    background-color: #1A2541 !important;
+    color: #fff !important;
+}
