@@ -13,6 +13,15 @@
     border-bottom: 3px solid #172444;
 }
 
+.tab2{
+    padding-bottom: 0.5rem !important;
+}
+
+.active2{
+    color: #172444;
+    border-bottom: 3px solid #172444;
+}
+
 .btn-ghost{
     background-color: #1A2541 !important;
     color: #fff !important;
