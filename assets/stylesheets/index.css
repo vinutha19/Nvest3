@@ -29,5 +29,5 @@
 
 .videoSection iframe{
     width: 100%;
-    height: 580px;
+    height: 580px !important;
 }
