@@ -30,3 +30,23 @@
 .videoSection iframe{
     width: 100%;
 }
+
+.firstSliderText{
+    font-size: 2.5em;
+    text-align: center;
+    font-weight: 700;
+}
+
+.firstSliderTextSec{
+    font-size: 1em;
+    text-align: center;
+    font-weight: 100;
+}
+
+.textContent{
+    padding: 1rem;
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+    border: 2px solid rgba(23, 36, 68);
+    background-color: rgba(23, 36, 68, 0.6);
+}
