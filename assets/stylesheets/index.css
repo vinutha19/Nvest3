@@ -26,3 +26,8 @@
     background-color: #1A2541 !important;
     color: #fff !important;
 }
+
+.videoSection iframe{
+    width: 100%;
+    height: 580px;
+}
