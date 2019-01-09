@@ -45,8 +45,37 @@
 
 .textContent{
     padding: 1rem;
-    padding-top: 1.4rem;
-    padding-bottom: 1.4rem;
-    border: 2px solid rgba(23, 36, 68);
-    background-color: rgba(23, 36, 68, 0.6);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border: 2px solid rgb(255, 255, 255, 0.6);
+    background-color: rgb(255, 255, 255, 0.6);
+    color:#172444;
+}
+
+.interestedText{
+    color: #fff;
+    font-weight: bold;
+    font-size: .8em;
+}
+
+.textPara{
+    visibility: hidden;
+}
+
+.contactUs{
+    background: #fff;
+    color: #172444;
+    width: 17%;
+    margin: 0 auto;
+    border-radius: 4px;
+    padding: .6rem;
+    text-decoration: none;
+}
+
+.contactUs a{
+    text-decoration: none;
+}
+
+.contactUs:hover{
+    text-decoration: none;
 }
