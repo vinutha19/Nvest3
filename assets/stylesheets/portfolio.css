@@ -1,0 +1,13 @@
+.tab3{
+    padding-bottom: 0.5rem !important;
+}
+
+.active{
+    color: #172444;
+    border-bottom: 3px solid #172444 !important;
+}
+
+.viewProject a{
+    background: #172444;
+    color: #fff;
+}
