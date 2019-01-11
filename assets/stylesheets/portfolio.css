@@ -11,3 +11,11 @@
     background: #172444;
     color: #fff;
 }
+
+.copyRight{
+    color: #fff;
+}
+
+.copyRight a{
+    text-decoration: none;
+}
