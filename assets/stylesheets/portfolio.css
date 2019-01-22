@@ -29,6 +29,14 @@
     width: 4%;
 }
 
+.webSiteLink{
+    margin-left: 1rem !important;
+}
+
+.projectSec{
+    width: 36%;
+}
+
 @media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
     .contactUs{
         width: 30%;
@@ -42,6 +50,9 @@
     .marginBottomSec{
         margin-bottom: 4rem;
     }
+    .projectSec{
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
@@ -54,6 +65,9 @@
     .marginBottomSec{
         margin-bottom: 4rem;
     }
+    .projectSec{
+        width: auto;
+    }
 }
 
 
@@ -61,10 +75,16 @@
     .videoButton img {
         width: 8%;
     }
+    .projectSec{
+        width: auto;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
     .videoButton img {
         width: 8%;
+    }
+    .projectSec{
+        width: auto;
     }
 }
