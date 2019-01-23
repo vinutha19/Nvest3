@@ -139,8 +139,22 @@
     color: #fff !important;
 }
 
+.viewProjectBtn{
+    background: #172444;
+    color: #fff;
+    padding: .5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.viewProjectBtn:hover{
+    text-decoration: none;
+}
+
 .gxVideoWrapper{
-    
+
 }
 
 
@@ -187,6 +201,9 @@
     .marginBottomSec{
         margin-bottom: 4rem;
     }
+    .socialIconWrapper{
+        width: 500px
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -198,5 +215,8 @@
     }
     .secHeight{
         height: auto;
+    }
+    .socialIconWrapper{
+        width: 500px
     }
 }
