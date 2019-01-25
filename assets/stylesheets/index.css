@@ -139,6 +139,10 @@
     color: #fff !important;
 }
 
+.socialIconWrapperSection{
+    width: 360px;
+}
+
 .viewProjectBtn{
     background: #172444;
     color: #fff;
