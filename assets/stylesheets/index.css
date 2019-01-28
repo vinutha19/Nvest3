@@ -139,8 +139,12 @@
     color: #fff !important;
 }
 
+.socialIconWrapper{
+    width: 400px
+}
+
 .socialIconWrapperSection{
-    width: 360px;
+    width: 400px;
 }
 
 .viewProjectBtn{
@@ -179,6 +183,14 @@
     -ms-transform: translateY(-3px);
     -o-transform: translateY(-3px);
     transform: translateY(-3px);
+}
+
+.brandingSectionWraper{
+    text-align: center;
+}
+
+.brandingImageSection{
+    display: inline-block;
 }
 
 
