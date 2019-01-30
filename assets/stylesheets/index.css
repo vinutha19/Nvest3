@@ -248,7 +248,7 @@
 }
 
 .downArrowSection{
-  font-size: 42px;
+  font-size: 60px;
   color: #172444
 }
 
@@ -430,6 +430,12 @@
         background-size: contain !important;
         height: auto;
     }
+    .nextVideoSection {
+        top: 60%;
+    }
+    .nextVideoSectionSecond {
+        top: 60%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -457,6 +463,13 @@
     
     .backgroundImageSectionWrapper{
         background-size: contain !important;
+    }
+
+    .nextVideoSection {
+        top: 69%;
+    }
+    .nextVideoSectionSecond {
+        top: 69%;
     }
 }
 
@@ -495,6 +508,12 @@
         top: auto;
         right: 18%;
     }
+    .nextVideoSection {
+        top: 69%;
+    }
+    .nextVideoSectionSecond {
+        top: 69%;
+    }
 }
 
 
@@ -516,6 +535,9 @@
         top: auto;
         right: 12%;
     }
+    .downArrowSection {
+        font-size: 86px;
+    }
 }
 
 @media only screen 
@@ -535,5 +557,8 @@
         bottom: auto;
         top: auto;
         right: 5%;
+    }
+    .downArrowSection {
+        font-size: 86px;
     }
 }
