@@ -241,7 +241,7 @@
 .nextVideoSectionSecond{
     position: absolute !important;
     z-index: 99;
-    bottom: 20%;
+    bottom: 15%;
     left: 24%;
     margin-bottom: 0;
     padding: 0px !important;
@@ -357,6 +357,16 @@
     .backgroundImageSectionWrapper{
         background-size: contain !important;
     }
+
+    .nextVideoSection {
+        bottom: 23%;
+        right: 18%;
+    }
+
+    .nextVideoSectionSecond {
+        bottom: 20%;
+        left: 17%;
+    }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
@@ -387,6 +397,14 @@
 
     .backgroundImageSectionWrapper{
         background-size: contain !important;
+    }
+
+    .nextVideoSection {
+        bottom: 12%;
+    }
+
+    .nextVideoSectionSecond {
+        bottom: 10%;
     }
 }
 
