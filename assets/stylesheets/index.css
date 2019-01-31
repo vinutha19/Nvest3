@@ -121,7 +121,7 @@
     position: absolute;
     top: -11%;
     left: 12.5%;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .videoButtonWrapper:hover {
@@ -141,7 +141,7 @@
     position: absolute;
     top: -27%;
     right: 12%;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 
