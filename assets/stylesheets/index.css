@@ -112,10 +112,16 @@
 }
 
 .videoButtonWrapper img{
-    width: 6%;
+    /* width: 6%;
     position: absolute;
     top: 35%;
-    left: 18%;
+    left: 18%; */
+
+    width: 17%;
+    position: absolute;
+    top: -11%;
+    left: 12.5%;
+    /* opacity: 0; */
 }
 
 .videoButtonWrapper:hover {
@@ -126,10 +132,16 @@
 
 
 .videoButtonWrapperSecond img{
-    width: 6%;
+    /* width: 6%;
     position: absolute;
     top: 35%;
-    right:18%;
+    right:18%; */
+
+    width: 18%;
+    position: absolute;
+    top: -27%;
+    right: 12%;
+    /* opacity: 0; */
 }
 
 
@@ -526,6 +538,22 @@
     .footerVisibilitySec{
         visibility: hidden;
     }
+
+
+    .videoButtonWrapperSecond img {
+        width: 24%;
+        top: 20%;
+        right: 13%;
+        /* opacity: 0; */
+    }
+
+    .videoButtonWrapper img {
+        width: 16%;
+        position: absolute;
+        top: 33%;
+        left: 17.5%;
+        /* opacity: 0; */
+    }
   
 }
 
@@ -579,6 +607,24 @@
         bottom: 10%;
         right: 20%;
     }
+
+    .videoButtonWrapper img {
+        width: 16%;
+        position: absolute;
+        top: 11%;
+        left: 0;
+        left: 17.5%;
+    }
+
+    .videoButtonWrapperSecond img {
+        width: 16%;
+        position: absolute;
+        top: 10%;
+        right: 17%;
+        /* opacity: 0; */
+    }
+
+    
 }
 
 
@@ -627,6 +673,24 @@
     .footerBannerWraper{
         background-size: contain !important;
     }
+
+
+
+    .videoButtonWrapper img {
+        width: 20%;
+        position: absolute;
+        top: -6%;
+        left: 13.5%;
+        /* opacity: 0; */
+    }
+
+    .videoButtonWrapperSecond img {
+        width: 22%;
+        position: absolute;
+        top: -27%;
+        right: 13%;
+        /* opacity: 0; */
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
@@ -666,6 +730,15 @@
     .footerBannerWraper{
         background-size: contain !important;
     }
+
+    .videoButtonWrapperSecond img {
+        width: 16%;
+        position: absolute;
+        bottom: auto;
+        top: 31%;
+        right: 17%;
+    }
+    
 }
 
 
@@ -690,19 +763,21 @@
         background-size: contain !important;
     }
     .videoButtonWrapper img {
-        width: 6%;
+        width: 17%;
         position: absolute;
         bottom: auto;
-        top: auto;
-        left: 18%;
+        top: 103%;
+        left: 13%;
     }
+
     .videoButtonWrapperSecond img {
-        width: 6%;
+        width: 18%;
         position: absolute;
-        bottom: auto;
-        top: auto;
-        right: 18%;
+        top: 79%;
+        right: 12%;
+        /* opacity: 0; */
     }
+    
     .nextVideoSection {
         top: 69%;
     }
@@ -716,20 +791,7 @@
   and (min-width: 1400px) 
   and (max-width: 1600px) 
   and (orientation: landscape){
-    .videoButtonWrapper img {
-        width: 6%;
-        position: absolute;
-        bottom: auto;
-        top: 130%;
-        left: 12%;
-    }
-    .videoButtonWrapperSecond img {
-        width: 6%;
-        position: absolute;
-        bottom: auto;
-        top: auto;
-        right: 12%;
-    }
+    
 
     .downArrowSection {
         font-size: 86px;
@@ -743,6 +805,25 @@
         bottom: -21%;
         right: 20%;
     }
+
+
+
+    .videoButtonWrapper img {
+        width: 19%;
+        position: absolute;
+        bottom: auto;
+        top: 67%;
+        left: 7%;
+    }
+
+
+    .videoButtonWrapperSecond img {
+        width: 21%;
+        position: absolute;
+        top: 51%;
+        right: 4%;
+        /* opacity: 0; */
+    }
 }
 
 @media only screen 
@@ -750,18 +831,18 @@
   and (max-width: 2500px) 
   and (orientation: landscape){
     .videoButtonWrapper img {
-        width: 6%;
+        width: 22%;
         position: absolute;
         bottom: auto;
-        top: 130%;
-        left: 5%;
+        top: 55%;
+        left: 1%;
     }
     .videoButtonWrapperSecond img {
-        width: 6%;
+        width: 22%;
         position: absolute;
-        bottom: auto;
-        top: auto;
-        right: 5%;
+        top: 37%;
+        right: 2%;
+        /* opacity: 0; */
     }
     .downArrowSection {
         font-size: 86px;
@@ -777,5 +858,8 @@
 
     .hoverImagePlay{
         width: 100%
+    }
+    .nextVideoSectionSecond {
+        top: 72%;
     }
 }
