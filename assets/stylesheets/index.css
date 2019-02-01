@@ -373,6 +373,10 @@
     text-align: center;
     margin-bottom: 10px;
   }
+
+
+
+
   
   .content {
     position: relative;
@@ -479,9 +483,202 @@
 
 
 
+  .contentImg {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+  }
+  
+  .contentImg .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 99%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .contentImg:hover .content-overlay{
+    opacity: 1;
+  }
+  
+  .content-image{
+    width: 100%;
+  }
+  
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .contentImg:hover .content-details{
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .content-details h3{
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+    text-transform: uppercase;
+  }
+  
+  .content-details p{
+    color: #fff;
+    font-size: 0.8em;
+  }
+
+  .pds{
+      padding: 0;
+  }
+
+  .rightTextSection p{
+    font-size: 1.4em;
+    padding: 1.2rem;
+    text-align: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+
+  .rightHeaderText{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  }
+
+  .textHeaderContent{
+    font-size: 3em;
+  }
+
+  .rightHeaderText img{
+    height: 58px;
+    margin-left: 1rem;
+  }
+
+ .rightIconImageSection{
+     width: 20%;
+ }
+
+ .desktopSectionImage{
+    display: block;
+ }
+
+ .mobileResolutionImage{
+    display: none;
+}
+
+.investorSectionWraper h4{
+    font-size: 6em;
+    text-align: center;
+    color: #172444;
+    line-height: 88px;
+    font-weight: 600;
+}
+
+.investorSectionWraperSub{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.investorSectionWraperSub h5{
+    font-size: 2em;
+    text-align: center;
+    color: #172444;
+    line-height: 36px;
+    font-weight: 600;
+}
+
+.textCenterSection{
+    padding-top: 3rem;
+}
+
+.textCenterSectionone{
+    padding-top: 6rem;
+}
+
+
+
+
+
+
 
 
 @media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: portrait) {
+
+    .textCenterSectionone{
+        padding-top: 0rem;
+    }
+
+    .textCenterSection {
+        padding-top: 0rem;
+    }
+
+    .rightTextSection p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .investorSectionWraper h4 {
+        font-size: 4em;
+        line-height: 59px;
+        padding-top: 2rem;
+    }
+
+    .investorSectionWraperSub h5 {
+        font-size: 1.8em;
+        line-height: 30px;
+    }
+
+    .desktopSectionImage{
+        display: none;
+    }
+
+    .mobileResolutionImage{
+        display: block;
+    }
+
+    .rightHeaderText {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .textHeaderContent {
+        font-size: 2.3em;
+    }
+
+    .rightHeaderText img {
+        height: 43px;
+    }
+
+    .mobileResolutionPdsBtm{
+        padding-bottom: 4rem;
+    }
+
+
+
+
+
     .contactUs{
         width: 30%;
     }
@@ -554,10 +751,43 @@
         left: 17.5%;
         /* opacity: 0; */
     }
+
+
+    .mobileResolutionPara{
+        padding: 1rem;
+    }
+
+    .mobileResolutionPara p{
+        font-size: 1.2em;
+    }
+
+
+
+
+    
   
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) and (orientation: landscape) {
+
+    .textCenterSectionone{
+        padding-top: 0rem;
+    }
+
+    .textCenterSection {
+        padding-top: 0rem;
+    }
+
+    .rightTextSection p {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+
+
+
+
+
     .videoButton img {
         width: 6%;
     }
@@ -624,11 +854,57 @@
         /* opacity: 0; */
     }
 
+
+
+
+
+
+    .desktopSectionImage{
+        display: none;
+    }
+
+    .mobileResolutionImage{
+        display: block;
+    }
+
+    .rightHeaderText {
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+    }
+
+    .textHeaderContent {
+        font-size: 2.3em;
+    }
+
+    .rightHeaderText img {
+        height: 43px;
+    }
+
+    .mobileResolutionPdsBtm{
+        padding-bottom: 4rem;
+    }
+
     
 }
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+
+    .textCenterSectionone{
+        padding-top: 0rem;
+    }
+
+    .textCenterSection {
+        padding-top: 0rem;
+    }
+
+    .rightTextSection p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
+
     .contactUs{
         width: 25%;
     }
@@ -691,9 +967,43 @@
         right: 13%;
         /* opacity: 0; */
     }
+
+    .textHeaderContent {
+        font-size: 2.3em;
+    }
+
+    .rightHeaderText img {
+        height: 48px;
+    }
+
+    .investorSectionWraper h4 {
+        font-size: 2em;
+        line-height:0px;
+        padding-top: 2rem;
+    }
+
+    .investorSectionWraperSub h5 {
+        font-size: 1.4em;
+        padding: 1rem;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+
+    .textCenterSectionone{
+        padding-top: 0rem;
+    }
+
+    .textCenterSection {
+        padding-top: 1rem;
+    }
+
+    .rightTextSection p {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+
     .videoButton img {
         width: 8%;
     }
@@ -738,8 +1048,35 @@
         top: 31%;
         right: 17%;
     }
-    
+
+    .investorSectionWraper h4 {
+        font-size: 2em;
+        line-height:0px;
+        padding-top: 2rem;
+    }
+
+    .investorSectionWraperSub h5 {
+        font-size: 1.4em;
+        padding: 1rem;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 @media only screen 
@@ -863,3 +1200,14 @@
         top: 72%;
     }
 }
+
+
+
+@media only screen 
+  and (min-width: 1600px) 
+  and (max-width: 1920px){
+    .rightsideSectionWraper{
+        padding: 3rem;
+        padding-top: 6rem;
+    }
+  }
