@@ -1249,6 +1249,13 @@
     .textCenterSectionone{
         padding-top: 14rem;
     } */
+
+
+    .secondImageSection {
+        background-size: auto !important;
+        background-position: 70% 51% !important;
+    }
+
   }
 
 @media only screen 
@@ -1270,4 +1277,158 @@
     justify-content: center;
     align-items: center;
   }
-  
+
+
+
+.firstImageSection{
+    clip-path: polygon(0 0, 100% 0, 72% 100%, 0% 100%);
+	width: 40%;
+	height: 430px;
+	display: inline-block;;background-size: cover;
+    background-position: right;    
+    border: 1px solid transparent;
+    transition: all 0.5s
+}
+
+.secondImageSection{
+    clip-path: polygon(25% 0%, 100% 0%, 80% 100%, 0% 100%);
+	width: 45%;
+	height: 430px;
+	display: inline-block;
+	position: absolute;
+    left: 29%;
+    background-size: cover;
+    background-position: right;    
+    border: 1px solid transparent;
+    transition: all 0.5s
+}
+
+.thirdImageSection{
+    clip-path: polygon(25% 0%, 100% 0%, 102% 100%, 0% 100%);
+	width: 35%;
+	height: 430px;
+	display: inline-block;
+	position: absolute;
+    right: 1%;
+    background-size: cover;
+    background-position: 86%;    
+    border: 1px solid transparent;
+    transition: all 0.5s
+}
+
+/* .firstImageSection:hover {
+    box-shadow: 0 20px 60px -6px rgba(0,0,0,0.5);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-42px);
+}
+
+.secondImageSection:hover {
+    box-shadow: 0 20px 60px -6px rgba(0,0,0,0.5);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-42px);
+}
+
+.thirdImageSection:hover {
+    box-shadow: 0 20px 60px -6px rgba(0,0,0,0.5);
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px);
+    transform: translateY(-42px);
+} */
+
+
+
+
+
+/* make keyframes that tell the start state and the end state of our object */
+@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-moz-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+
+.fade-in {
+  opacity:0;  /* make things invisible upon start */
+  -webkit-animation:fadeIn ease-in 1;  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation:fadeIn ease-in 1;
+  animation:fadeIn ease-in 1;
+
+  -webkit-animation-fill-mode:forwards;  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode:forwards;
+  animation-fill-mode:forwards;
+
+  -webkit-animation-duration:1s;
+  -moz-animation-duration:1s;
+  animation-duration:1s;
+}
+
+.fade-in.one {
+  -webkit-animation-delay: 0.7s;
+  -moz-animation-delay: 0.7s;
+  animation-delay: 0.7s;
+}
+
+.fade-in.two {
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay:2s;
+  animation-delay: 2s;
+}
+
+.fade-in.three {
+  -webkit-animation-delay: 3s;
+  -moz-animation-delay: 3s;
+  animation-delay: 3s;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* jssor slider loading skin spin css */
+.jssorl-009-spin img {
+    animation-name: jssorl-009-spin;
+    animation-duration: 1.6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes jssorl-009-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+.jssorb101 .i {position:absolute;cursor:pointer;}
+.jssorb101 .i .ci {fill:#000;}
+.jssorb101 .i .co {fill:#fff;opacity:.3;}
+.jssorb101 .i:hover .co {fill:#ff9933;opacity: 1;}
+.jssorb101 .i:hover .ci {fill:#fff;}
+.jssorb101 .iav .ci {fill:#fff;stroke-width:0;}
+.jssorb101 .iav .co {fill:#46d1d3;opacity: 1;}
+.jssorb101 .i.idn {opacity:.3;}
+
+.jssora051 {display:block;position:absolute;cursor:pointer;}
+.jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+.jssora051:hover {opacity:.8;}
+.jssora051.jssora051dn {opacity:.5;}
+.jssora051.jssora051ds {opacity:.3;pointer-events:none;}
